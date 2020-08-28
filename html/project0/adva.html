@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advanced Search</title>
+        <style>
+            #grid {
+                background-color: aqua;
+                display: grid;
+                padding: 20px;
+                grid-column-gap: 20px;
+                grid-row-gap: 10px;
+                grid-template-columns: 250px 600px;
+            }
+            
+            .grid-item {
+                padding: 20px;
+                text-align: left;
+            }
+
+            .searchbar {
+                width: 200px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="grid">
+            <div class="grid-item">
+                all these words:
+            </div>
+            <div class="grid-item">
+                <input class="searchbar" type="text" name="as_q">
+            </div>
+
+            <div class="grid-item">
+                the exact word or phrase:
+            </div>
+            <div class="grid-item">
+                <input class="searchbar" type="text" name="as_epq">
+            </div>
+
+        </div>
+    </body>
+</html>

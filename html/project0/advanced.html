@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <style>
+            #submit {
+                background-color: rgb(53, 147, 224);
+                color: white;
+                padding: 5px;
+                border: hidden;
+                font-weight: bold;
+                margin-left: 400px;
+            }
+            #links {
+                text-align: right;
+            }
+            #searchform {
+                text-align: left;
+                padding: 20px;
+            }
+            #page_title {
+                color: red;
+            }
+            .searchbar {
+                width: 300px;
+            }
+            * {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .box1, .box2 {
+                height: 40px;
+                font-size: 20px;
+            }
+            .box1 {
+                padding-top: 1px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="links">
+            <a href="index.html">Google Search</a>
+        </div>
+        <br>
+        <h1 id="page_title">Advanced Search</h1>
+        <h2>Find pages with...</h2>
+        <div style="width: 100%; overflow: hidden;">
+            <form id="searchform" action="https://google.com/search?">
+                <div style="width: 300px; float: left;">
+                    <div class="box1">
+                        <label>all these words:</label>
+                    </div>
+                    <div class="box1">
+                        <label>the exact word or phrase:</label>
+                    </div>
+                    <div class="box1">
+                        <label>any of these words:</label>
+                    </div>
+                    <div class="box1">
+                        <label>none of these words:</label>       
+                    </div>
+                </div>
+                <div style="margin-left: 100px;">
+                    <div class="box2">
+                        <input class="searchbar" type="text" name="as_q">
+                    </div>
+                    <div class="box2">
+                        <input class="searchbar" type="text" name="as_epq">
+                    </div>
+                    <div class="box2">
+                        <input class="searchbar" type="text" name="as_oq">
+                    </div>
+                    <div class="box2">
+                        <input class="searchbar" type="text" name="as_eq">
+                    </div>
+                </div>
+                <div style="padding-top: 10px;">
+                    <input id="submit" type="submit" value="Advanced Search">
+                </div>
+                class="iUh30 gBIQub tjvcx"
+            </form>
+        </div>
+    </body>
+</html>
